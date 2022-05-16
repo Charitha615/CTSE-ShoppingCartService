@@ -8,7 +8,7 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
-  [12:00 AM] Galagoda R.R.N.P.A.B.W.M.S.R. it19146102
+
 env:
   PROJECT_ID: ${{ secrets.PROJECT_ID }}
   GKE_CLUSTER: shoppingcart
