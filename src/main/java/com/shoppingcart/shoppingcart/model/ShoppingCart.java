@@ -7,12 +7,12 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class ShoppingCart {
     @Id
     private String id;
-    private int cartID;
-    private String UserId;
-    private String ProductName;
-    private int UnitPrice;
-    private String Quantity;
-    private int productID;
+    private String cartId;
+    private String userId;
+    private String productName;
+    private String unitPrice;
+    private String quantity;
+    private String productId;
 
     public String getId() {
         return id;
@@ -22,51 +22,51 @@ public class ShoppingCart {
         this.id = id;
     }
 
-    public int getCartID() {
-        return cartID;
+    public String getCartId() {
+        return cartId;
     }
 
-    public void setCartID(int cartID) {
-        this.cartID = cartID;
+    public void setCartId(String cartId) {
+        this.cartId = cartId;
     }
 
     public String getUserId() {
-        return UserId;
+        return userId;
     }
 
     public void setUserId(String userId) {
-        UserId = userId;
+        this.userId = userId;
     }
 
     public String getProductName() {
-        return ProductName;
+        return productName;
     }
 
     public void setProductName(String productName) {
-        ProductName = productName;
+        this.productName = productName;
     }
 
-    public int getUnitPrice() {
-        return UnitPrice;
+    public String getUnitPrice() {
+        return unitPrice;
     }
 
-    public void setUnitPrice(int unitPrice) {
-        UnitPrice = unitPrice;
+    public void setUnitPrice(String unitPrice) {
+        this.unitPrice = unitPrice;
     }
 
     public String getQuantity() {
-        return Quantity;
+        return quantity;
     }
 
     public void setQuantity(String quantity) {
-        Quantity = quantity;
+        this.quantity = quantity;
     }
 
-    public int getProductID() {
-        return productID;
+    public String getProductId() {
+        return productId;
     }
 
-    public void setProductID(int productID) {
-        this.productID = productID;
+    public void setProductId(String productId) {
+        this.productId = productId;
     }
 }
